@@ -1,0 +1,11 @@
+import axios from 'axios';
+
+const instance = axios.create({
+    baseURL: 'https://tyma.cloud/tenants/modern-tech', // قم بتصحيح استخدام علامات الاقتباس
+    headers: {
+    'platform':'ios',
+    'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxNCIsImp0aSI6IjdhOGFkMDJiMWMxNTVjZGI2YWI1NmEyMzYwN2FlZTQwZDg0NDM5NjliYTA0OThlZWY2MGRjZWNhMGUyNGJjM2RhZDRiNmQxNmQ4OTU5NDYyIiwiaWF0IjoxNzI2Mzk4MjIwLjQyMjIwNCwibmJmIjoxNzI2Mzk4MjIwLjQyMjIwNiwiZXhwIjoxNzU3OTM0MjIwLjM5NzE1Miwic3ViIjoiMSIsInNjb3BlcyI6W119.G4UxaAX9St2Y1SLsPrJBvw-L_ZKsYH8r4bpL5nxuMnzzkD1y2oAcgqTMfayG1KOTDuGq_gJFdqX3UmUiR-zcYlIXiCgxSdaCXjvCWLweAff-ds3G_0uscHQTjY5xddG8blLDe_sg0Dpp1SSaWKgy-KdK9AVK4TgUFcmj0YUckAXzC3oerYcr529-EdsUZOhTzrknRUAoGF3HTkHx9aOfDP6Quh5P2eeFX_VPiobzFQs-2buseAgWqxojeYZtpnasqzgBjWZiLaOVue_eicypK27mF5zIjWjbPLQHCFAtCT82YHJWTIJSBLlChFxITAmroSIwJuPVFIjHYz2KaPXBkIUqP-WX70PK1K4Sa8L1LA3N1oPiJdWaDMlRISm6aFZdrdxTx_cBPxWqHSvzZLC1x4vU-kKm7-5SJ8hZFZR5oNyxa1eq1T6lxA_OmTzGRFc4IoxWuTsCYIUD67eEBsLZP6vhHTgn6TGXQ0GHhTGMoEzFG-2cBdRU5SiLNoOG17Y72sxeQvmQZigrwOBDbFVU2QHPZZv4g9eufdkih9XFe4kkdiN8bo8bbkp7dmzf63GrO_eapDnQ9-ZRy5-9GC_dcEymGPLC8uOTHZKYrictkTY80Q7-Miqf782uzAS6wYK3I0LawcEq8Y-wPZP0DNE8eBS5BpGcUyCEoS4brVR6DYo', 
+  },
+});
+
+export default instance;
